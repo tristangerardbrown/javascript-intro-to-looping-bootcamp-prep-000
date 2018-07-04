@@ -10,6 +10,7 @@ function forLoop(array) {
 return array;
 }
 
+
 function whileLoop(i) {
   let countdown = i; 
     while (countdown > 0) {
@@ -18,15 +19,14 @@ function whileLoop(i) {
     return "done";
       }
   
+  
 function doWhileLoop(array) {
  function maybeTrue() {
   return Math.random() >= 0.5
   }
-  
   do {
   array.pop();
  } while (array.length > -1 && maybeTrue());
    return array;
- }
-
+ 
 }
